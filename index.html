@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Əsas səhifə</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="/style/main.css" />
   </head>
@@ -27,8 +27,9 @@
 
       <!-- right side  -->
       <div class="flex lg:mr-12 2xl:mr-24">
-        <div class="px-5">Giris et</div>
-        <div class="px-5">Qeydiyyatdan kec</div>
+        <a href="./index.html" class="mx-5 border-b border-gray-200">Əsas səhifə</a>
+        <a href="/pages/Login.html" class="mx-5">Giris et</a>
+        <a href="/pages/Register.html" class="mx-5 ">Qeydiyyatdan kec</a>
         <div class="px-5">Destek ol</div>
       </div>
     </div>
@@ -151,103 +152,137 @@
 
     <!-- TESTIMONIALS SECTION----------------------------------------------------------- -->
     <div class="w-screen h-[80vh] bg-gradient-to-r from-[#46AEF9] to-[#2578B5]">
-      <div
-        class="flex justify-around items-center flex-wrap w-full h-full"
-      >
-      <div className="w-[300px] lg:w-[350px] 2xl:w-[420px]">
-        <figure class='flex flex-col flex-wrap items-center justify-center p-5 text-center bg-white border-gray-200 rounded-lg'>
-          <blockquote class='mx-auto flex-wrap mb-4 text-gray-500 lg:mb-8'>
-            <h3 class='text-lg font-semibold text-gray-900'>
-             Test1
-            </h3>
-          </blockquote>
-          <figcaption class='flex items-center justify-center space-x-3'>
-            <img src="./images/UserPhoto.png" class="rounded-full w-9 h-9" alt='profile img' />
-            <div class='space-y-0.5 font-medium text-left'>
-              <div>Ayxan Shahsuvarov</div>
-              <div class='text-sm font-light text-gray-500'>
-              Back-end developer
+      <div class="flex justify-around items-center flex-wrap w-full h-full">
+        <div className="w-[300px] lg:w-[350px] 2xl:w-[420px]">
+          <figure
+            class="flex flex-col flex-wrap items-center justify-center p-5 text-center bg-white border-gray-200 rounded-lg"
+          >
+            <blockquote class="mx-auto flex-wrap mb-4 text-gray-500 lg:mb-8">
+              <h3 class="text-lg font-semibold text-gray-900">Test1</h3>
+            </blockquote>
+            <figcaption class="flex items-center justify-center space-x-3">
+              <img
+                src="./images/UserPhoto.png"
+                class="rounded-full w-9 h-9"
+                alt="profile img"
+              />
+              <div class="space-y-0.5 font-medium text-left">
+                <div>Ayxan Shahsuvarov</div>
+                <div class="text-sm font-light text-gray-500">
+                  Back-end developer
+                </div>
               </div>
-            </div>
-          </figcaption>
-        </figure>
-      </div>
-      <!-- ---------2---- -->
-      <div className="w-[300px] lg:w-[350px] 2xl:w-[420px]">
-        <figure class='flex flex-col flex-wrap items-center justify-center p-5 text-center bg-white border-gray-200 rounded-lg'>
-          <blockquote class='mx-auto flex-wrap mb-4 text-gray-500 lg:mb-8'>
-            <h3 class='text-lg font-semibold text-gray-900'>
-              Test2
-            </h3>
-          </blockquote>
-          <figcaption class='flex items-center justify-center space-x-3'>
-            <img src="./images/UserPhoto.png" class="rounded-full w-9 h-9" alt='profile img' />
-            <div class='space-y-0.5 font-medium text-left'>
-              <div>Ayxan Shahsuvarov</div>
-              <div class='text-sm font-light text-gray-500'>
-                Back-end developer
+            </figcaption>
+          </figure>
+        </div>
+        <!-- ---------2---- -->
+        <div className="w-[300px] lg:w-[350px] 2xl:w-[420px]">
+          <figure
+            class="flex flex-col flex-wrap items-center justify-center p-5 text-center bg-white border-gray-200 rounded-lg"
+          >
+            <blockquote class="mx-auto flex-wrap mb-4 text-gray-500 lg:mb-8">
+              <h3 class="text-lg font-semibold text-gray-900">Test2</h3>
+            </blockquote>
+            <figcaption class="flex items-center justify-center space-x-3">
+              <img
+                src="./images/UserPhoto.png"
+                class="rounded-full w-9 h-9"
+                alt="profile img"
+              />
+              <div class="space-y-0.5 font-medium text-left">
+                <div>Ayxan Shahsuvarov</div>
+                <div class="text-sm font-light text-gray-500">
+                  Back-end developer
+                </div>
               </div>
-            </div>
-          </figcaption>
-        </figure>
-      </div>
-      <!-- ----------3---------- -->
-      <div className="w-[300px] lg:w-[350px] 2xl:w-[420px]">
-        <figure class='flex flex-col flex-wrap items-center justify-center p-5 text-center bg-white border-gray-200 rounded-lg'>
-          <blockquote class='mx-auto flex-wrap mb-4 text-gray-500 lg:mb-8'>
-            <h3 class='text-lg font-semibold text-gray-900'>
-              Test3
-            </h3>
-          </blockquote>
-          <figcaption class='flex items-center justify-center space-x-3'>
-            <img src="./images/UserPhoto.png" class="rounded-full w-9 h-9" alt='profile img' />
-            <div class='space-y-0.5 font-medium text-left'>
-              <div>Ayxan Shahsuvarov</div>
-              <div class='text-sm font-light text-gray-500'>
-                Back-end developer
+            </figcaption>
+          </figure>
+        </div>
+        <!-- ----------3---------- -->
+        <div className="w-[300px] lg:w-[350px] 2xl:w-[420px]">
+          <figure
+            class="flex flex-col flex-wrap items-center justify-center p-5 text-center bg-white border-gray-200 rounded-lg"
+          >
+            <blockquote class="mx-auto flex-wrap mb-4 text-gray-500 lg:mb-8">
+              <h3 class="text-lg font-semibold text-gray-900">Test3</h3>
+            </blockquote>
+            <figcaption class="flex items-center justify-center space-x-3">
+              <img
+                src="./images/UserPhoto.png"
+                class="rounded-full w-9 h-9"
+                alt="profile img"
+              />
+              <div class="space-y-0.5 font-medium text-left">
+                <div>Ayxan Shahsuvarov</div>
+                <div class="text-sm font-light text-gray-500">
+                  Back-end developer
+                </div>
               </div>
-            </div>
-          </figcaption>
-        </figure>
+            </figcaption>
+          </figure>
+        </div>
       </div>
-    </div>
     </div>
     <!-- ---------------------------------------------------------------- -->
 
     <!-- COURSER SECTION----------------------------- -->
-    <div class='w-screen min-h-screen flex justify-center items-center'>
+    <div class="w-screen min-h-screen flex justify-center items-center">
       <div>
-        <div class='text-center mx-auto w-1/6 pb-2 mb-2 text-[#0062A7] text-2xl border-b border-[#0062A7] font-bold'>
+        <div
+          class="text-center mx-auto w-1/6 pb-2 mb-2 text-[#0062A7] text-2xl border-b border-[#0062A7] font-bold"
+        >
           Kurslarimiz
         </div>
         <div>
-          <div class='flex justify-center items-center flex-wrap'>
-           
-            <div class='w-[400px] h-[240px] mx-5 my-2'>
-              <div class='h-4/5 bg-slate-400 rounded-t-xl'></div>
-              <div class='h-1/5 bg-[#0062A7] rounded-b-xl text-white flex items-center justify-end pr-3'>Riyaziyyat</div>
+          <div class="flex justify-center items-center flex-wrap">
+            <div class="w-[400px] h-[240px] mx-5 my-2">
+              <div class="h-4/5 bg-slate-400 rounded-t-xl"></div>
+              <div
+                class="h-1/5 bg-[#0062A7] rounded-b-xl text-white flex items-center justify-end pr-3"
+              >
+                Riyaziyyat
+              </div>
             </div>
-            <div class='w-[400px] h-[240px] mx-5 my-2'>
-              <div class='h-4/5 bg-slate-400 rounded-t-xl'></div>
-              <div class='h-1/5 bg-[#0062A7] rounded-b-xl text-white flex items-center justify-end pr-3'>Riyaziyyat</div>
+            <div class="w-[400px] h-[240px] mx-5 my-2">
+              <div class="h-4/5 bg-slate-400 rounded-t-xl"></div>
+              <div
+                class="h-1/5 bg-[#0062A7] rounded-b-xl text-white flex items-center justify-end pr-3"
+              >
+                Riyaziyyat
+              </div>
             </div>
-            <div class='w-[400px] h-[240px] mx-5 my-2'>
-              <div class='h-4/5 bg-slate-400 rounded-t-xl'></div>
-              <div class='h-1/5 bg-[#0062A7] rounded-b-xl text-white flex items-center justify-end pr-3'>Riyaziyyat</div>
+            <div class="w-[400px] h-[240px] mx-5 my-2">
+              <div class="h-4/5 bg-slate-400 rounded-t-xl"></div>
+              <div
+                class="h-1/5 bg-[#0062A7] rounded-b-xl text-white flex items-center justify-end pr-3"
+              >
+                Riyaziyyat
+              </div>
             </div>
-            <div class='w-[400px] h-[240px] mx-5 my-2'>
-              <div class='h-4/5 bg-slate-400 rounded-t-xl'></div>
-              <div class='h-1/5 bg-[#0062A7] rounded-b-xl text-white flex items-center justify-end pr-3'>Riyaziyyat</div>
+            <div class="w-[400px] h-[240px] mx-5 my-2">
+              <div class="h-4/5 bg-slate-400 rounded-t-xl"></div>
+              <div
+                class="h-1/5 bg-[#0062A7] rounded-b-xl text-white flex items-center justify-end pr-3"
+              >
+                Riyaziyyat
+              </div>
             </div>
-            <div class='w-[400px] h-[240px] mx-5 my-2'>
-              <div class='h-4/5 bg-slate-400 rounded-t-xl'></div>
-              <div class='h-1/5 bg-[#0062A7] rounded-b-xl text-white flex items-center justify-end pr-3'>Riyaziyyat</div>
+            <div class="w-[400px] h-[240px] mx-5 my-2">
+              <div class="h-4/5 bg-slate-400 rounded-t-xl"></div>
+              <div
+                class="h-1/5 bg-[#0062A7] rounded-b-xl text-white flex items-center justify-end pr-3"
+              >
+                Riyaziyyat
+              </div>
             </div>
-            <div class='w-[400px] h-[240px] mx-5 my-2'>
-              <div class='h-4/5 bg-slate-400 rounded-t-xl'></div>
-              <div class='h-1/5 bg-[#0062A7] rounded-b-xl text-white flex items-center justify-end pr-3'>Riyaziyyat</div>
+            <div class="w-[400px] h-[240px] mx-5 my-2">
+              <div class="h-4/5 bg-slate-400 rounded-t-xl"></div>
+              <div
+                class="h-1/5 bg-[#0062A7] rounded-b-xl text-white flex items-center justify-end pr-3"
+              >
+                Riyaziyyat
+              </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -255,13 +290,15 @@
     <!-- ------------------------------------------------------------ -->
 
     <!-- FOOTER----------------------------------------------------- -->
-    <div class='w-screen h-[50vh] bg-gradient-to-r from-[#46AEF9] to-[#2578B5] text-white'>
-      <div class='font-bold text-2xl 2xl:text-3xl w-4/5 mx-auto pt-5'>
+    <div
+      class="w-screen h-[50vh] bg-gradient-to-r from-[#46AEF9] to-[#2578B5] text-white"
+    >
+      <div class="font-bold text-2xl 2xl:text-3xl w-4/5 mx-auto pt-5">
         Her bir sagird ucun!
       </div>
-      <div class='flex justify-between items-center w-4/5 h-4/5 mx-auto'>
+      <div class="flex justify-between items-center w-4/5 h-4/5 mx-auto">
         <div>
-          <img src="images/logo.png" alt='logo' />
+          <img src="images/logo.png" alt="logo" />
         </div>
         <div class="flex">
           <div class="px-2">
@@ -270,7 +307,7 @@
             <div class="py-1">KOMANDAMIZ</div>
           </div>
           <div clase="px-2">
-            <div class="py-1">ELAQE </div>
+            <div class="py-1">ELAQE</div>
             <div class="py-1">DESTEK MERKEZI</div>
             <div class="py-1">REY BILDIR</div>
           </div>

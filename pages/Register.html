@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qeydiyyat keç</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/style/main.css" />
+  </head>
+  <body>
+    <!------------------NAVBAR--------------- -->
+    <div
+      class="flex flex-col lg:flex-row justify-between lg:items-center h-[10vh] pt-8 2xl:pt-10 lg:text-lg 2xl:text-2xl bg-gradient-to-r from-[#46AEF9] to-[#2578B5] text-white"
+    >
+      <!-- left side  -->
+      <div class="flex items-center lg:ml-12 2xl:ml-24">
+        <div class="px-5">Yarismalar</div>
+        <div class="px-5">
+          <input
+            class="bg-gray-50 border border-gray-300 text-md text-slate-400 rounded-lg outline-none focus:ring-slate-500 focus:border-slate-500 block w-full p-2"
+            type="text"
+            placeholder="axtar..."
+          />
+        </div>
+      </div>
+
+      <!-- right side  -->
+      <div class="flex lg:mr-12 2xl:mr-24">
+        <a href="../index.html" class="mx-5">Əsas səhifə</a>
+        <a href="/pages/Login.html" class="mx-5">Giris et</a>
+        <a href="/pages/Register.html" class="mx-5 border-b border-gray-200"
+          >Qeydiyyatdan kec</a
+        >
+        <div class="px-5">Destek ol</div>
+      </div>
+    </div>
+    <!----------------------------------------------------------------------------------------------------->
+
+    <!-- Body-------------------------------------------------------------------- -->
+    <div
+      class="w-screen h-[90vh] flex justify-center items-center bg-gradient-to-r from-[#46AEF9] to-[#2578B5]"
+    >
+      <div class="w-[80vw] text-blue-800 flex mx-auto ">
+        <div class="w-2/4 hidden lg:block bg-slate-400 flex-wrap p-8">
+          <div class="mx-auto text-center py-4">Qeydiyyat keç</div>
+          <div class="mx-auto px-10 py-2">
+            İstənilən yerdə, hər kəs üçün dünya səviyyəli təhsil.100% pulsuz
+          </div>
+          <div class="mx-auto px-10">
+            Təhsil aldığınız mövzüda fərdi yardım almaq və ya tamamilə yeni bir
+            şey öyrənmək üçün In Teach-ə qoşulun
+          </div>
+        </div>
+        <div class="w-[280px] sm:w-2/4 bg-blue-700 px-6 py-4 pb-8 mx-auto">
+          <div class="flex justify-center items-center py-8">
+            <button class="p-2 bg-slate-500">Müəllim</button>
+            <button class="p-2 bg-slate-400">Şagird</button>
+            <button class="p-2 bg-slate-400">Valideyn</button>
+          </div>
+          <!-- ----NAME----------- -->
+          <div
+            class="w-full mx-auto sm:w-[250px] lg:w-[400px] relative flex h-10 focus-within:border-gray-400 rounded-sm border focus:border-[#a7a7c5] mb-2"
+          >
+            <input
+              required="true"
+              type="text"
+              class="bg-[#FAFAFA] w-full h-full outline-none relative px-[7px] text-sm peer valid:pt-3"
+            />
+            <span
+              class="text-blue-800 top-3 left-2 absolute text-sm cursor-text pointer-events-none peer-valid:top-0.5 peer-valid:text-[12px] peer-valid:pb-2"
+            >
+              Ad
+            </span>
+          </div>
+          <!-- ----SURNAME----------- -->
+          <div
+            class="mt-4 w-full mx-auto sm:w-[250px] lg:w-[400px] relative flex h-10 focus-within:border-gray-400 rounded-sm border focus:border-[#a7a7c5] mb-2"
+          >
+            <input
+              required="true"
+              type="text"
+              class="bg-[#FAFAFA] w-full h-full outline-none relative px-[7px] text-sm peer valid:pt-3"
+            />
+            <span
+              class="text-blue-800 top-3 left-2 absolute text-sm cursor-text pointer-events-none peer-valid:top-0.5 peer-valid:text-[12px] peer-valid:pb-2"
+            >
+              Soyad
+            </span>
+          </div>
+          <!-- ----GMAIL----------- -->
+          <div
+            class="mt-4 w-full mx-auto sm:w-[250px] lg:w-[400px] relative flex h-10 focus-within:border-gray-400 rounded-sm border focus:border-[#a7a7c5] mb-2"
+          >
+            <input
+              required="true"
+              type="text"
+              class="bg-[#FAFAFA] w-full h-full outline-none relative px-[7px] text-sm peer valid:pt-3"
+            />
+            <span
+              class="text-blue-800 top-3 left-2 absolute text-sm cursor-text pointer-events-none peer-valid:top-0.5 peer-valid:text-[12px] peer-valid:pb-2"
+            >
+              Gmail
+            </span>
+          </div>
+          <!-- ----PASSWORD----------- -->
+          <div
+            class="mt-4 w-full mx-auto sm:w-[250px] lg:w-[400px] relative flex h-10 focus-within:border-gray-400 rounded-sm border focus:border-[#a7a7c5] mb-2"
+          >
+            <input
+              required="true"
+              type="password"
+              class="bg-[#FAFAFA] w-full h-full outline-none relative px-[7px] text-sm peer valid:pt-3"
+            />
+            <span
+              class="text-blue-800 top-3 left-2 absolute text-sm cursor-text pointer-events-none peer-valid:top-0.5 peer-valid:text-[12px] peer-valid:pb-2"
+            >
+              Şifrə
+            </span>
+          </div>
+          <!-- -------------- -->
+        </div>
+      </div>
+    </div>
+
+    <!----------------------------------------------------------------------------------------------------->
+    <!-- FOOTER----------------------------------------------------- -->
+    <div
+      class="w-screen h-[50vh] bg-gradient-to-r from-[#46AEF9] to-[#2578B5] text-white"
+    >
+      <div class="font-bold text-2xl 2xl:text-3xl w-4/5 mx-auto pt-5">
+        Her bir sagird ucun!
+      </div>
+      <div class="flex justify-between items-center w-4/5 h-4/5 mx-auto">
+        <div>
+          <img src="../images/logo.png" alt="logo" />
+        </div>
+        <div class="flex">
+          <div class="px-2">
+            <div class="py-1">HAQQIMIZDA</div>
+            <div class="py-1">DESTEKCILER</div>
+            <div class="py-1">KOMANDAMIZ</div>
+          </div>
+          <div clase="px-2">
+            <div class="py-1">ELAQE</div>
+            <div class="py-1">DESTEK MERKEZI</div>
+            <div class="py-1">REY BILDIR</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------------------------------------------------- -->
+  </body>
+</html>
