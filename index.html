@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/style/main.css" />
+  </head>
+  <body>
+    <!------------------NAVBAR--------------- -->
+    <div
+      class="flex flex-col lg:flex-row justify-between lg:items-center h-[10vh] pt-8 2xl:pt-10 lg:text-lg 2xl:text-2xl bg-gradient-to-r from-[#46AEF9] to-[#2578B5] text-white"
+    >
+      <!-- left side  -->
+      <div class="flex items-center lg:ml-12 2xl:ml-24">
+        <div class="px-5">Yarismalar</div>
+        <div class="px-5">
+          <input
+            class="bg-gray-50 border border-gray-300 text-md text-slate-400 rounded-lg outline-none focus:ring-slate-500 focus:border-slate-500 block w-full p-2"
+            type="text"
+            placeholder="axtar..."
+          />
+        </div>
+      </div>
+
+      <!-- right side  -->
+      <div class="flex lg:mr-12 2xl:mr-24">
+        <div class="px-5">Giris et</div>
+        <div class="px-5">Qeydiyyatdan kec</div>
+        <div class="px-5">Destek ol</div>
+      </div>
+    </div>
+    <!----------------------------------------------------------------------------------------------------->
+
+    <!-- MAIN SECTION--------------------------------------------------------------------- -->
+    <div class="w-screen h-[90vh] bg-gradient-to-r from-[#46AEF9] to-[#2578B5]">
+      <div
+        class="w-full h-4/5 flex flex-col lg:flex-row justify-center items-center"
+      >
+        <div
+          class="w-3/4 md:w-2/4 lg:w-6/12 xl:w-[650px] 2xl:w-[800px] mt-20 lg:mt-0 text-white font-bold"
+        >
+          <div class="sm:text-xl md:text-2xl lg:text-4xl 2xl:text-5xl lg:pb-5">
+            <p class="lg:pb-2">Hər bir tələbə üçün hər sinif.</p>
+            <p>Real nəticələr.</p>
+          </div>
+          <div class="lg:w-3/4 text-base lg:text-lg 2xl:text-xl text-white/75">
+            Biz qeyri-kommersiya təşkilatıyıq və missiyamız hər kəs üçün, hər
+            yerdə pulsuz, dünya səviyyəli təhsil verməkdir. Şagirdlər,
+            müəllimlər və valideynlər:
+          </div>
+        </div>
+        <div class="w-[250px] sm:w-[300px] md:w-4/12">
+          <img src="images/students.png" alt="students" />
+        </div>
+      </div>
+    </div>
+
+    <!----------------------------------------------------------------------------------------------------->
+
+    <!-- ABOUT SECTION-------------------------------------------------------------------------- -->
+    <div class="w-screen h-screen flex justify-center items-center">
+      <div class="text-center">
+        <div
+          class="text-[#2F88C8] font-bold text-xl lg:text-2xl xl:text-3xl 2xl:text-6xl"
+        >
+          Niye In-Teach?
+        </div>
+        <div class="flex flex-wrap justify-center items-center mt-2">
+          <div class="px-10">
+            <img
+              class="2xl:w-[400px]"
+              src="images/about1.png"
+              alt="about img"
+            />
+            <p class="2xl:text-xl">inkisaf ucun zemin yaradir</p>
+          </div>
+          <div class="px-10">
+            <img
+              class="2xl:w-[400px]"
+              src="images/about2.png"
+              alt="about img"
+            />
+            <p class="2xl:text-xl">Eylenceli reqabet ortami yaradir</p>
+          </div>
+          <div class="px-10">
+            <img
+              class="2xl:w-[400px]"
+              src="images/about3.png"
+              alt="about img"
+            />
+            <p class="2xl:text-xl">Valdeynler ucun nezaret sistemi</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------------------------------------------------------------------------- -->
+
+    <!-- TEACHER SECTION--------------------------------------------- -->
+    <div class="w-screen h-screen bg-gradient-to-r from-[#46AEF9] to-[#2578B5]">
+      <div
+        class="w-full h-full flex flex-col lg:flex-row justify-center items-center"
+      >
+        <div class="w-[250px] sm:w-[300px] md:w-4/12 2xl:w-[600px]">
+          <img src="images/TeacherSection.png" alt="Teacher img" />
+        </div>
+        <div
+          class="w-3/4 md:w-2/4 lg:w-6/12 xl:w-[650px] 2xl:w-[800px] text-white font-bold"
+        >
+          <div
+            class="leading-loose sm:text-xl md:text-2xl lg:text-4xl 2xl:text-5xl lg:pb-5"
+          >
+            Sinifinizi fərqləndirin və hər bir tələbəni cəlb edin
+          </div>
+          <button class="p-3 bg-white font-bold rounded-lg text-[#0062A7]">
+            Muellimler ucun
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------------------------------------------------- -->
+
+    <!-- STUDENT SECTION-------------------------------------------------- -->
+    <div class="w-screen h-screen">
+      <div
+        class="w-full h-full flex flex-col lg:flex-row justify-center items-center"
+      >
+        <div
+          class="flex justify-end flex-col items-end w-3/4 md:w-2/4 lg:w-6/12 xl:w-[650px] 2xl:w-[800px] text-[#0062A7] font-bold"
+        >
+          <div class="sm:text-xl md:text-2xl lg:text-4xl 2xl:text-5xl py-1">
+            Butun sagirdler ucun elcatandir
+          </div>
+          <p class="text-base lg:text-lg 2xl:text-xl py-2">
+            Missiyamiz saglam reqabet ortami yaratmaqdir
+          </p>
+          <button class="p-3 font-bold rounded-lg bg-[#0062A7] text-white">
+            Sagird olaraq basla
+          </button>
+        </div>
+
+        <div class="w-[250px] sm:w-[300px] md:w-4/12 2xl:w-[600px]">
+          <img src="images/StudentSection.png" alt="Teacher img" />
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------------------------------------------------------------------------- -->
+
+    <!-- TESTIMONIALS SECTION----------------------------------------------------------- -->
+    <div class="w-screen h-[80vh] bg-gradient-to-r from-[#46AEF9] to-[#2578B5]">
+      <div
+        class="flex justify-around items-center flex-wrap w-full h-full"
+      >
+      <div className="w-[300px] lg:w-[350px] 2xl:w-[420px]">
+        <figure class='flex flex-col flex-wrap items-center justify-center p-5 text-center bg-white border-gray-200 rounded-lg'>
+          <blockquote class='mx-auto flex-wrap mb-4 text-gray-500 lg:mb-8'>
+            <h3 class='text-lg font-semibold text-gray-900'>
+             Test1
+            </h3>
+          </blockquote>
+          <figcaption class='flex items-center justify-center space-x-3'>
+            <img src="./images/UserPhoto.png" class="rounded-full w-9 h-9" alt='profile img' />
+            <div class='space-y-0.5 font-medium text-left'>
+              <div>Ayxan Shahsuvarov</div>
+              <div class='text-sm font-light text-gray-500'>
+              Back-end developer
+              </div>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+      <!-- ---------2---- -->
+      <div className="w-[300px] lg:w-[350px] 2xl:w-[420px]">
+        <figure class='flex flex-col flex-wrap items-center justify-center p-5 text-center bg-white border-gray-200 rounded-lg'>
+          <blockquote class='mx-auto flex-wrap mb-4 text-gray-500 lg:mb-8'>
+            <h3 class='text-lg font-semibold text-gray-900'>
+              Test2
+            </h3>
+          </blockquote>
+          <figcaption class='flex items-center justify-center space-x-3'>
+            <img src="./images/UserPhoto.png" class="rounded-full w-9 h-9" alt='profile img' />
+            <div class='space-y-0.5 font-medium text-left'>
+              <div>Ayxan Shahsuvarov</div>
+              <div class='text-sm font-light text-gray-500'>
+                Back-end developer
+              </div>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+      <!-- ----------3---------- -->
+      <div className="w-[300px] lg:w-[350px] 2xl:w-[420px]">
+        <figure class='flex flex-col flex-wrap items-center justify-center p-5 text-center bg-white border-gray-200 rounded-lg'>
+          <blockquote class='mx-auto flex-wrap mb-4 text-gray-500 lg:mb-8'>
+            <h3 class='text-lg font-semibold text-gray-900'>
+              Test3
+            </h3>
+          </blockquote>
+          <figcaption class='flex items-center justify-center space-x-3'>
+            <img src="./images/UserPhoto.png" class="rounded-full w-9 h-9" alt='profile img' />
+            <div class='space-y-0.5 font-medium text-left'>
+              <div>Ayxan Shahsuvarov</div>
+              <div class='text-sm font-light text-gray-500'>
+                Back-end developer
+              </div>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    </div>
+    <!-- ---------------------------------------------------------------- -->
+
+    <!-- COURSER SECTION----------------------------- -->
+    <div class='w-screen min-h-screen flex justify-center items-center'>
+      <div>
+        <div class='text-center mx-auto w-1/6 pb-2 mb-2 text-[#0062A7] text-2xl border-b border-[#0062A7] font-bold'>
+          Kurslarimiz
+        </div>
+        <div>
+          <div class='flex justify-center items-center flex-wrap'>
+           
+            <div class='w-[400px] h-[240px] mx-5 my-2'>
+              <div class='h-4/5 bg-slate-400 rounded-t-xl'></div>
+              <div class='h-1/5 bg-[#0062A7] rounded-b-xl text-white flex items-center justify-end pr-3'>Riyaziyyat</div>
+            </div>
+            <div class='w-[400px] h-[240px] mx-5 my-2'>
+              <div class='h-4/5 bg-slate-400 rounded-t-xl'></div>
+              <div class='h-1/5 bg-[#0062A7] rounded-b-xl text-white flex items-center justify-end pr-3'>Riyaziyyat</div>
+            </div>
+            <div class='w-[400px] h-[240px] mx-5 my-2'>
+              <div class='h-4/5 bg-slate-400 rounded-t-xl'></div>
+              <div class='h-1/5 bg-[#0062A7] rounded-b-xl text-white flex items-center justify-end pr-3'>Riyaziyyat</div>
+            </div>
+            <div class='w-[400px] h-[240px] mx-5 my-2'>
+              <div class='h-4/5 bg-slate-400 rounded-t-xl'></div>
+              <div class='h-1/5 bg-[#0062A7] rounded-b-xl text-white flex items-center justify-end pr-3'>Riyaziyyat</div>
+            </div>
+            <div class='w-[400px] h-[240px] mx-5 my-2'>
+              <div class='h-4/5 bg-slate-400 rounded-t-xl'></div>
+              <div class='h-1/5 bg-[#0062A7] rounded-b-xl text-white flex items-center justify-end pr-3'>Riyaziyyat</div>
+            </div>
+            <div class='w-[400px] h-[240px] mx-5 my-2'>
+              <div class='h-4/5 bg-slate-400 rounded-t-xl'></div>
+              <div class='h-1/5 bg-[#0062A7] rounded-b-xl text-white flex items-center justify-end pr-3'>Riyaziyyat</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------------------------------------------ -->
+
+    <!-- FOOTER----------------------------------------------------- -->
+    <div class='w-screen h-[50vh] bg-gradient-to-r from-[#46AEF9] to-[#2578B5] text-white'>
+      <div class='font-bold text-2xl 2xl:text-3xl w-4/5 mx-auto pt-5'>
+        Her bir sagird ucun!
+      </div>
+      <div class='flex justify-between items-center w-4/5 h-4/5 mx-auto'>
+        <div>
+          <img src="images/logo.png" alt='logo' />
+        </div>
+        <div class="flex">
+          <div class="px-2">
+            <div class="py-1">HAQQIMIZDA</div>
+            <div class="py-1">DESTEKCILER</div>
+            <div class="py-1">KOMANDAMIZ</div>
+          </div>
+          <div clase="px-2">
+            <div class="py-1">ELAQE </div>
+            <div class="py-1">DESTEK MERKEZI</div>
+            <div class="py-1">REY BILDIR</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------------------------------------------------- -->
+  </body>
+</html>
