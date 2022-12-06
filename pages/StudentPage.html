@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Əsas səhifə</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/style/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+</head>
+<body>
+    <!------------------NAVBAR--------------- -->
+    <div
+      class="flex flex-col lg:flex-row justify-between lg:items-center h-[10vh] pt-8 2xl:pt-10 lg:text-lg 2xl:text-2xl bg-gradient-to-r from-[#46AEF9] to-[#2578B5] text-white"
+    >
+      <!-- left side  -->
+      <div class="flex items-center lg:ml-12 2xl:ml-24">
+        <div class="px-5 cursor-pointer group">
+          Yarismalar<i class="fa-solid fa-chevron-down ml-2"></i>
+          <div
+            class="cursor-default hidden absolute group-hover:flex flex-wrap z-50 p-8 bg-white text-[#46AEF9]"
+          >
+            <div class="mx-4">
+              <div class="bg-[#46AEF9] rounded text-white p-1 cursor-pointer">8-ci sinif</div>
+              <div class="my-1 cursor-pointer">Riyaziyyat</div>
+              <div class="my-1 cursor-pointer">Ana dili</div>
+              <div class="my-1 cursor-pointer">Biologiya</div>
+            </div>
+            <div class="mx-4">
+              <div class="bg-[#46AEF9] rounded text-white p-1 cursor-pointer">9-cu sinif</div>
+              <div class="my-1 cursor-pointer">Riyaziyyat</div>
+              <div class="my-1 cursor-pointer">Ana dili</div>
+              <div class="my-1 cursor-pointer">Biologiya</div>
+            </div>
+            <div class="mx-4">
+              <div class="bg-[#46AEF9] rounded text-white p-1 cursor-pointer">10-cu sinif</div>
+              <div class="my-1 cursor-pointer">Riyaziyyat</div>
+              <div class="my-1 cursor-pointer">Ana dili</div>
+              <div class="my-1 cursor-pointer">Biologiya</div>
+            </div>
+            <div class="mx-4">
+              <div class="bg-[#46AEF9] rounded text-white p-1 cursor-pointer">11-ci sinif</div>
+              <div class="my-1 cursor-pointer">Riyaziyyat</div>
+              <div class="my-1 cursor-pointer">Ana dili</div>
+              <div class="my-1 cursor-pointer">Biologiya</div>
+            </div>
+          </div>
+        </div>
+        <div class="xl:px-5 w-[200px]">
+          <input
+            class="bg-gray-50 border border-gray-300 text-md text-slate-400 rounded-lg outline-none focus:ring-slate-500 focus:border-slate-500 block w-full p-2"
+            type="text"
+            placeholder="axtar..."
+          />
+        </div>
+          <a href="/" class="flex items-center font-bold"
+          ><img src="../images/Mainlogo.png"/>In-Teach</a>
+        
+      </div>
+
+      <!-- right side  -->
+      <div class="flex items-center lg:mr-10 2xl:mr-20">
+        <div class="mx-2">Kurslar</div>
+        <div class="mx-2">Forum</div>
+        <div class="mx-2">Test</div>
+        <a href="/pages/Login.html" class="mx-3 rounded px-4 bg-[#F5F5F5] text-[#194F77]">Giris et</a>
+        <a href="/pages/Register.html" class="rounded px-4 bg-[#F5F5F5] text-[#194F77]">Qeydiyyatdan kec</a>
+        <a href="/pages/StudentAccountPage.html"><img src="../images/userLogo.png" class="w-9 h-9 ml-3"/></a>
+      </div>
+    </div>
+    <!----------------------------------------------------------------------------------------------------->
+     <!-- MAIN SECTION--------------------------------------------------------------------- -->
+     <div class="w-screen h-[90vh] bg-gradient-to-r from-[#46AEF9] to-[#2578B5]">
+        <div
+          class="w-full h-4/5 flex flex-col lg:flex-row justify-center items-center"
+        >
+          <div
+            class="w-3/4 md:w-2/4 lg:w-6/12 xl:w-[650px] 2xl:w-[800px] mt-20 lg:mt-0 text-white font-bold"
+          >
+            <div class="sm:text-xl md:text-2xl lg:text-4xl 2xl:text-5xl lg:pb-5">
+              <p>Geleceyini yarat</p>
+            </div>
+            <div class="lg:w-3/4 text-base lg:text-lg 2xl:text-xl text-white/75">
+              Biz qeyri-kommersiya təşkilatıyıq və missiyamız hər kəs üçün, hər
+              yerdə pulsuz, dünya səviyyəli təhsil verməkdir. Şagirdlər,
+              müəllimlər və valideynlər:
+            </div>
+          </div>
+          <div class="w-[250px] sm:w-[300px] md:w-4/12">
+            <img src="../images/students.png" alt="students" />
+          </div>
+        </div>
+      </div>
+  
+      <!----------------------------------------------------------------------------------------------------->
+      <!-- About SECTION--------------------------------------------- -->
+    <div class="w-screen h-screen text-[#1E6090] flex flex-col justify-center items-center">
+        <div class="flex flex-col justify-center items-center text-xl font-bold">
+            Mentor xidmeti
+            <span class="w-[100px] h-[2px] mt-1 bg-[#1E6090]"></span>
+        </div>
+        <div
+          class="flex flex-col lg:flex-row justify-center items-center"
+        >
+          <div class="w-[250px] sm:w-[300px] md:w-4/12 2xl:w-[600px]">
+            <img src="../images/StudentPageImg.png" alt="Teacher img" />
+          </div>
+          <div
+            class="w-3/4 md:w-2/4 lg:w-6/12 xl:w-[650px] 2xl:w-[800px] font-bold"
+          >
+            <div>
+                Mentor daha az təcrübəli insanlara professional şəkildə kariyera və şəxsi həyatlarında 
+                yol göstərən şəxsdir. Mentorlar adətən mentilərinə tövsiyə və dəstək verərək, 
+                həmçinin onlara maraqlı olan sualları cavablayaraq professional həyatlarında gedəcəkləri 
+                yolu minimum zaman çərçivəsində həyata keçirmələrini asanlaşdırırlar.
+            </div>
+            <button class="px-3 py-2 mt-2 bg-white font-bold rounded-lg bg-[#183B55] text-white
+            ">
+              Müraciət et
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- --------------------------------------------------------------- -->
+
+     <!-- COURSER SECTION----------------------------- -->
+     <div class="w-screen min-h-screen flex justify-center items-center">
+        <div>
+          <div
+            class="flex flex-col justify-center items-center pb-2 mb-2 text-[#0062A7] text-2xl font-bold"
+          >
+          Yarışmalar
+            <span class="w-[100px] h-[2px] mt-1 bg-[#1E6090]"></span>
+          </div>
+          <div>
+            <div class="flex justify-center items-center flex-wrap">
+              <div class="w-[400px] h-[200px] mx-5 my-2 bg-[#183B55] text-white text-lg flex flex-col items-center justify-center rounded">
+                <div>Zamana qarsı yarış</div>
+                <div>Riyaziyyat</div>
+              </div>
+              <div class="w-[400px] h-[200px] mx-5 my-2 bg-[#183B55] text-white text-lg flex flex-col items-center justify-center rounded">
+                <div>Vaxt 15 deqiqe </div>
+                <div>Ana dili</div>
+              </div>
+              <div class="w-[400px] h-[200px] mx-5 my-2 bg-[#183B55] text-white text-lg flex flex-col items-center justify-center rounded">
+                <div>Ən yaxşı esse</div>
+                <div>Ədəbiyyat</div>
+              </div>
+              <div class="w-[400px] h-[200px] mx-5 my-2 bg-[#183B55] text-white text-lg flex flex-col items-center justify-center rounded">
+                <div>Zamana qarsı yarış</div>
+                <div>Riyaziyyat</div>
+              </div>
+              <div class="w-[400px] h-[200px] mx-5 my-2 bg-[#183B55] text-white text-lg flex flex-col items-center justify-center rounded">
+                <div>Vaxt 15 deqiqe </div>
+                <div>Ana dili</div>
+              </div>
+              <div class="w-[400px] h-[200px] mx-5 my-2 bg-[#183B55] text-white text-lg flex flex-col items-center justify-center rounded">
+                <div>Ən yaxşı esse</div>
+                <div>Ədəbiyyat</div>
+              </div>
+              
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------------------------------------ -->
+</body>
+</html>
